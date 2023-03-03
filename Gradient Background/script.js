@@ -2,7 +2,7 @@
 const button = document.getElementById('clickable-button')
 
 // Add event listener
-button.addEventListener('click', rotateBackgroundColor)
+button.addEventListener('click', updateBackgroundColor)
 
 function updateBackground() {
   console.log('update background')
